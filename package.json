@@ -1,0 +1,23 @@
+{
+  "name": "file-bot",
+  "version": "0.0.1",
+  "description": "A bot to manipulate files in a real system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "--test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "inserthere"
+  },
+  "keywords": [
+    "files",
+    "storage",
+    "discord"
+  ],
+  "author": "Bro-mine",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  }
+}
