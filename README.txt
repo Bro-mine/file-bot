@@ -10,15 +10,15 @@ The --initialize command must be used at least once (by each user) to generate t
 
 --initialize: Read above. Generates a directory dedicated to the user invoking the command.
 
---savefile <name>: Saves the attachment included with the message invoking the command, be it a image, or any other file. (ONLY ONE ATTACHMENT MAY BE INCLUDED AT A TIME FOR NOW).
+savefile <name>: Saves the attachment included with the message invoking the command, be it a image, or any other file. (ONLY ONE ATTACHMENT MAY BE INCLUDED AT A TIME FOR NOW).
 
-Usage: --savefile test.txt -> Saves the attachment and renames it to "test.txt"
+Usage: savefile test.txt -> Saves the attachment and renames it to "test.txt"
 
---sendfile <name>: Sends the saved file from the host machine with the specified name. (Only one file can be sent at a time).
+sendfile <name>: Sends the saved file from the host machine with the specified name. (Only one file can be sent at a time).
 
-Usage: --sendfile test.jpg -> Sends the file "test.jpg" if it is present in your user directory (the one created with --initialize). Sends an error message if the files does not exist.
+Usage: sendfile test.jpg -> Sends the file "test.jpg" if it is present in your user directory (the one created with --initialize). Sends an error message if the files does not exist.
 
-ls (no prefix): Lists all files present in your user directory. Use the -a flag to list hidden files as well.
+ls: Lists all files present in your user directory. Use the -a flag to list hidden files as well.
 
 HIDING FILES:
 
