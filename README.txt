@@ -1,3 +1,11 @@
+WARNING: DO NOT USE THIS PROJECT AS IS!
+
+THE USE OF EXECSYNC LIKE SO COULD RESULT IN REMOTE CODE EXECUTION.
+
+I suspect malicious filenames could result in execSync executing undesired commands, which could harm the host's computer. Do not use the project for now. I could block filenames with ";" or "&" as a bodge, but it wouldn't be perfect. Will attempt to replace execSync in the future.
+
+---------------------------------------------
+
 This bot serves the purpose of a NAS (kinda) for a Discord server. Users can save files to the host machine, and have the bot send the files back to them when needed, that could be useful for server logs, and things like that.
 
 Users can only access their respective folders, meaning you can only access your data if you have access to the host machine, or if you are logged in with your account, so your account serves as your password as well. Global folders are planned to be included in the near future.
